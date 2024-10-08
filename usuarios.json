@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombres": "Jheison",
+        "apellidos": "Beltrán",
+        "fechaNacimiento": "1997-01-18",
+        "correo": "jbeltran17@cuc.edu.co"
+    },
+    {
+        "id": 2,
+        "nombres": "Sebastian",
+        "apellidos": "Galvan",
+        "fechaNacimiento": "1998-02-19",
+        "correo": "sgalvan@cuc.edu.co"
+    },
+    {
+        "id": 3,
+        "nombres": "Alicia",
+        "apellidos": "Daza",
+        "fechaNacimiento": "1999-03-20",
+        "correo": "adaza17@cuc.edu.co"
+    }
+]

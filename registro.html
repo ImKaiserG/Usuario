@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios - Soporte Samsung</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="tabla.html">Usuarios Registrados</a></li>
+        </ul>
+    </nav>
+
+    <h1>Formulario de Registro</h1>
+    <form id="formRegistro">
+        <input type="number" id="identificacion" placeholder="Identificación" required>
+        <input type="text" id="nombres" placeholder="Nombres" required>
+        <input type="text" id="apellidos" placeholder="Apellidos" required>
+        <input type="date" id="fechaNacimiento" required>
+        <input type="date" id="fechaExpedicion" required>
+        <input type="text" id="ciudad" placeholder="Ciudad" required>
+        <input type="text" id="departamento" placeholder="Departamento" required>
+        <input type="tel" id="telefono" placeholder="Teléfono" required>
+        <input type="email" id="correo" placeholder="Correo" required>
+        <button type="submit">Registrar Usuario</button>
+    </form>
+
+    <button id="listarUsuarios">Listar Usuarios</button>
+    <table id="tablaUsuarios">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2024 Soporte Samsung</p>
+    </footer>
+</body>
+</html>
